@@ -4,14 +4,15 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+
+  <ion-card>
+    <img src="../../assets/imgs/samsung.jpg" alt="">
+    <ion-card-content>
+      <ion-card-title>ซัมซุงส่งบัตรเชิญเปิดตัว Galaxy S9 วันที่ 25 กุมภาพันธ์</ion-card-title>
+      <p>เป็นทางการแล้วว่าซัมซังจะเปิดตัวเรือธงรุ่นใหม่ Galaxy S9 ในวันที่ 25 กุมภาพันธ์นี้...</p>
+      <p text-right><button ion-button (click)="showdetail()">อ่านต่อ</button></p>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
